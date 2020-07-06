@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/earlyaccess/jejugothic.css');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500&display=swap');
+/* 웹폰트 */
+
+body, html {
+    background-color: white; 
+    margin: 0;
+    font-family: 'Jeju Gothic', sans-serif;
+}
+
+
+.container{
+    max-width: 1200px; 
+    background-color: white;
+    margin: 0 auto;
+  }
+
+/* smaug's head */
+
+header{
+    position:fixed;
+    z-index: 1;
+    top:0;
+    width:100%;
+    /* opacity:0.7; */
+}
+header h2 a{
+    color: #336600;
+}
+.navbar{
+    align-items: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+    padding-top: 10px;
+    height: 50px;
+}
+.navbar h2{
+    color: #336600;
+    font-size: 36px;
+}
+
+.logo{
+    font-size:40px;
+    color:black;
+    display:inline-block;
+}
+
+nav{
+    text-align: right;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+nav span{
+    display: inline-block;
+    padding: 16px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color: #336600;
+}
+
+/* Gimly's body */
+
+
+.slideshow{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.menu_section{
+    justify-content: center;
+    margin-top:100px;
+}
+.menu_desc{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+
+.menu_desc span{
+    font-size: 30px;
+    border-bottom:3px #000 solid;
+    padding: 0 8px;
+    margin: 30px auto;
+    text-align: center;
+}
+.menu_img{
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu_section img{
+    width:200px;
+    height:130px;
+    margin: 0 50px;
+    border-radius: 5%;
+    
+}
+
+.menu_section img:hover{
+    transform: scale(1.5);
+}
+
+.menu_section span{
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+
+/* info sexmachine */
+
+.info_desc span{
+    font-size: 30px;
+    border-bottom:3px #000 solid;
+    padding: 0 8px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+.info_section{
+    justify-content: center;
+    margin-top:100px;
+}
+.info_desc{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.info_spec{
+    display: flex;
+    justify-content: center;
+    color: #336600;
+}
+
+.info_spec span{
+    font-size:20px;
+    color:black;
+    margin: 0 30px 0 0;
+}
+
+.info_spec li{
+    list-style-type: none;
+    margin-bottom: 40px;
+    border-bottom: 2px black solid;
+    display: flex;
+}
+
+.info_spec ul{
+    width:30%;
+}
+
+.info_spec a {
+    color: #336600;
+}
+
+.info_spec a:hover {
+    color: #336600;
+    text-decoration: underline;
+}
+
+
+/* Bilbo's feet */
+
+
+footer{
+    padding: 150px 0px 50px 0px;
+    margin: 0;
+    bottom:0;
+    text-align: center;
+    font-size: 14px;
+    color: #444444;
+}
+
+
+
+
+/* 카페소개 */
+
+.about_section h1{
+    margin: 100px 0 0 0;
+    font-size: 25px;
+}
+
+.about_section img{
+    width: 300px;
+    height: 100%;
+    border-radius: 3%;
+}
+
+.image_1{
+    display: flex;
+    margin: 10px 0 50px 0;
+}
+.image_1 img{
+    margin-right: 50px;
+}
+.image_1 p{
+    margin: auto 0;
+    line-height: 1.4;
+    font-weight: bold;
+    white-space: normal;
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.image_2{
+    display: flex;
+    margin: 50px 0;
+}
+.image_2 p{
+    margin: auto 0;
+    line-height: 1.4;
+    font-weight: bold;
+    white-space: normal;
+    overflow: hidden;
+    max-height: 200px;
+}
+.image_2 img{
+    margin-left: 50px;
+}
+.image_3{
+    display: flex;
+    margin: 50px 0;
+}
+.image_3 p{
+    margin: auto 0;
+    line-height: 1.4;
+    font-weight: bold;
+    white-space: normal;
+    overflow: hidden;
+    max-height: 200px;
+}
+.image_3 img{
+    margin-right: 50px;
+}
+/* image_x 아래에 display: flex;
+    margin: 50px 0; 추가 */
+
+/* image_x p 아래에 line-height: 1.4;
+    font-weight: bold;
+    white-space: normal;
+    overflow: hidden;
+    max-height: 200px; 추가 */
+
+/* 웹폰트 추가 */
+/* body에 margin 8px 있던거 제거 */
